@@ -13,12 +13,12 @@
 - Languages:  JavaScript, HTML
 - Add-ons:  Mapbox, Leaflet
 
-## Results of the Webpage
+## Results of the Map
 By following the steps listed below a user can enter the search criteria for UFO sightings.  
 
 1.  The search parameters must be typed according to the examples in the placeholder fields of the `Filter Search` box.
 
-![Slide_1.PNG](https://github.com/frostbrosracing/UFOs/blob/main/README.md_images/Slide1.PNG)
+![Streets View All Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/streets_all_layers.png)
 
 2.  Begin by typing in the date according to the example.  The date of `1/1/2010` was used in the example.  Because all the sightings in the `data.js` file are located in the United States, "us" was also entered as the default search country.
 
