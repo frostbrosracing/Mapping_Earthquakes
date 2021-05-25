@@ -14,9 +14,15 @@
 - Add-ons:  Mapbox, Leaflet
 
 ## Results of the Map
+
 The initial view of the loaded map renders the `Streets` view with all layers selected. 
 
 ![Streets View All Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/streets_all_layers.png)
+
+By clicking on any of the bubbles, the earthquake magnitude and location will pop up.
+
+
+![Pop Up Box](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/pop_up_box.png)
 
 By selecting the `Satellite` view, the appearance of the map is adjusted.  All layers will be selected until one of the layers is de-selected.
 
@@ -31,10 +37,13 @@ A Dark view map shown with no layers selected.
 ![Dark No Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_no_layers.png)
 
 A Dark view map shown with the `Major Earthquakes` layer selected.
+
 ![Dark Major Earthquakes](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_major_earthquakes.png)
 
 A Dark view map shown with the `Earthquakes` layer selected.
+
 ![Dark All Earthquakes](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_earthquakes.png)
 
 A Dark view map shown with the `Tectonic Plates` layer selected.
+
 ![Dark Tectonic Plates](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_tectonic_plates.png)
