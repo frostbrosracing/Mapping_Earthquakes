@@ -4,7 +4,7 @@
 #### The goal of this project was to create an interactive map using HTML, JavaScript, Leaflet and Mapbox that allows users to view recent earthquake data.
 
 #### Resources
-- Data Sources:  
+- Data Sources: <p> 
 Tectonic plate data <p>
 `https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json`
 
