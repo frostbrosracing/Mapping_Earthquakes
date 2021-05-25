@@ -5,7 +5,9 @@
 
 #### Resources
 - Data Source:  Tectonic plate data `https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json`
+
 Last 7-days of earthquake data from USGS.gov `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson`
+
 Last 7-days of earthquake data over 4.5 magnitude from USGS.gov `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson`
 - Software:  Microsoft Visual Studio Code
 - Languages:  JavaScript, HTML
