@@ -31,28 +31,29 @@ L.control.layers(baseMaps).addTo(map);
 // Accessing the Toronto neighborhoods GeoJSON URL.
 let torontoHoods = "https://raw.githubusercontent.com/frostbrosracing/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
-// // Create a style for the lines.
-// let myStyle = {
-//   color: "#ffffa1",
-//   weight: 2
-// }
+// Create a style for the lines.
+let myStyle = {
+  color:  "blue",
+  fillColor: "yellow",
+  weight: 1
+}
 
-// // Grabbing our GeoJSON data.
-// d3.json(torontoHoods).then(function(data) {
-//   console.log(data);
-// // Creating a GeoJSON layer with the retrieved data.
-// L.geoJson(data).addTo(map);
-// });
+// Grabbing our GeoJSON data.
+d3.json(torontoHoods).then(function(data) {
+  console.log(data);
+// Creating a GeoJSON layer with the retrieved data.
+L.geoJson(data).addTo(map);
+});
 
-// // Grabbing our GeoJSON data for the marker popups
-// d3.json(torontoData).then(function(data) {
-// L.geoJson(data, {
-//   style: myStyle,
-//   // We turn each feature into a marker on the map.
-//   onEachFeature: function(feature, layer) {
-//     layer.bindPopup("<h3>Airline: " + feature.properties.airline + "</h3> <hr> <h3> Destination: " + feature.properties.dst + "</h3>");
-//   }
-// })
-// .addTo(map);
-// });
+// Grabbing our GeoJSON data for the marker popups
+d3.json(torontoHoods).then(function(data) {
+L.geoJson(data, {
+  style: myStyle,
+  // We turn each feature into a marker on the map.
+  onEachFeature: function(feature, layer) {
+    layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>");
+  }
+})
+.addTo(map);
+});
  
