@@ -14,30 +14,27 @@
 - Add-ons:  Mapbox, Leaflet
 
 ## Results of the Map
-By following the steps listed below a user can enter the search criteria for UFO sightings.  
-
-1.  The search parameters must be typed according to the examples in the placeholder fields of the `Filter Search` box.
+The initial view of the loaded map renders the Street view with all layers selected. 
 
 ![Streets View All Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/streets_all_layers.png)
 
-2.  Begin by typing in the date according to the example.  The date of `1/1/2010` was used in the example.  Because all the sightings in the `data.js` file are located in the United States, "us" was also entered as the default search country.
+By selecting the Satellite view, the appearance of the map is adjusted.  All layers will be selected until one of the layers is de-selected.
 
-![Slide_2.PNG](https://github.com/frostbrosracing/UFOs/blob/main/README.md_images/Slide2.PNG)
+![Satellite View All Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/satellite_all_layers.png)
 
-3.  Next, type in the state according to the example.  California was used in the example by typing in `ca`.
+By selecting the Dark view, the app appearance of the map is once again adjusted.  
 
-![Slide_3.PNG](https://github.com/frostbrosracing/UFOs/blob/main/README.md_images/Slide3.PNG)
+![Dark View All Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_all_layers.png)
 
-4.  Once you type in the city, you can see the results further filtered as shown below.  The city of `el cajon` was used in this example.
+A Dark view map shown with no layers selected.
 
-![Slide_4.PNG](https://github.com/frostbrosracing/UFOs/blob/main/README.md_images/Slide4.PNG)
+![Dark No Layers](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_no_layers.png)
 
-5.  Finally, by typing in the shape `formation`, you can see that a single sighting is the result of all five filters.
+A Dark view map shown with the major earthquakes layer selected.
+![Dark Major Earthquakes](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_major_earthquakes.png)
 
-![Slide_5.PNG](https://github.com/frostbrosracing/UFOs/blob/main/README.md_images/Slide5.PNG)
+A Dark view map shown with the "all" earthquakes layer selected.
+![Dark All Earthquakes](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_earthquakes.png)
 
-## Summary
-By creating multiple filter options for the search, the data set can be quickly searched according to the user's desired parameters.  One drawback to the webpage is that the search criteria must be typed exactly as it is captured in the `data.js` file that is being filtered.  Because of this, results will not be included if the search isn't conducted according to the examples shown in the placeholder fields in the Filter Box. Two additional recommendations for further development that would enhance the user experience on the webpage are listed below:
-
-1.  Expand the dataset to include a wider range of sightings from around the world and for a more comprehensive period of time.
-2.  Create a user form which would allow submissions from webpage visitors to be included in the dataset.
+A Dark view map shown with the tectonic plates layer selected.
+![Dark Tectonic Plates](https://github.com/frostbrosracing/Mapping_Earthquakes/blob/main/images/dark_tectonic_plates.png)
