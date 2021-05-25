@@ -20,3 +20,17 @@ d3.json(airportData).then(function(data) {
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJson(data).addTo(map);
 });
+
+// Grabbing our GeoJSON data for the marker popups
+d3.json(airportData).then(function(data) {
+L.geoJson(data, {
+  // We turn each feature into a marker on the map.
+  pointToLayer: function(feature, latlng) {
+    console.log(feature);
+    return L.marker(latlng)
+    .bindPopup("<h3>Airport code: " + feature.properties.faa + "</h3> <hr> <h3> Airport Name: " + feature.properties.name + "</h3>");
+    // .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
+  }
+}).addTo(map);
+});
+ 
