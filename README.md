@@ -4,15 +4,12 @@
 #### The goal of this project was to create an interactive map using HTML, JavaScript, Leaflet and Mapbox that allows users to view recent earthquake data.
 
 #### Resources
-- Data Sources: <p> 
-Tectonic plate data <p>
-`https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json`
+- Data Sources: 
+Tectonic plate data `https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json`
 
-Last 7-days of earthquake data from USGS.gov <p>
-`https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson`
+Last 7-days of earthquake data from USGS.gov `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson`
 
-Last 7-days of earthquake data over 4.5 magnitude from USGS.gov <p>
-`https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson`
+Last 7-days of earthquake data over 4.5 magnitude from USGS.gov `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson`
 
 - Software:  Microsoft Visual Studio Code
 - Languages:  JavaScript, HTML
