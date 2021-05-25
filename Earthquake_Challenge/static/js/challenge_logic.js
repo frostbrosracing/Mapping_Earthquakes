@@ -85,7 +85,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     if (magnitude > 2) {
       return "#eecc00";
     }
-    if (magnitude > 1) {
+    if (magnitude > 1) {   
       return "#d4ee00";
     }
     return "#98ee00";
