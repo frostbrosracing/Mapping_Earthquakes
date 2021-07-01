@@ -30,6 +30,7 @@ L.geoJson(sanFranAirport, {
   pointToLayer: function(feature, latlng) {
     console.log(feature);
     return L.marker(latlng)
+    // .bindPopup("<h2>" + feature.properties.city + "</h2>");
     .bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3> " + feature.properties.city + ", " + feature.properties.country + "</h3>");
     // .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
   }
